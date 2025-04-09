@@ -6,24 +6,24 @@ import Image from "next/image"
 const galleryItems = [
   {
     type: "image",
-    src: "/gallery-1.jpg",
+    src: "https://img.freepik.com/fotos-gratis/mulher-senior-fazendo-ioga-em-casa_23-2149260225.jpg?t=st=1744222642~exp=1744226242~hmac=cbc8e9fd038b3a9a9c725f65c27633e8a007a544e39f587580633b355d52c31d&w=740",
     alt: "Aula de yoga em grupo"
   },
   {
     type: "image",
-    src: "/gallery-2.jpg",
+    src: "https://img.freepik.com/fotos-gratis/mulheres-idosas-fazendo-exercicios-em-casa-juntos_23-2149260244.jpg?t=st=1744223460~exp=1744227060~hmac=e0732141affeb7eed60aed9e9bfc27feba94bfd5ef5123a7aa24b8db78ce80f4&w=996",
     alt: "Pose de yoga"
   },
+
   {
+    type: "image",
+    src: "https://img.freepik.com/fotos-gratis/homem-com-os-olhos-fechados-praticando-ioga_23-2148282882.jpg?t=st=1744223518~exp=1744227118~hmac=22f3d98d0d7745f1b7520f5fc35b9e256760cb225db8f3e2fda7225aa00ea139&w=740",
+    alt: "Meditação em grupo"
+  },{
     type: "video",
     src: "/yoga-video.mp4",
     alt: "Vídeo de aula de yoga"
   },
-  {
-    type: "image",
-    src: "/gallery-3.jpg",
-    alt: "Meditação em grupo"
-  }
 ]
 
 export function GallerySection() {

@@ -8,7 +8,7 @@ const classes = [
   {
     title: "Aulas Presenciais",
     description: "Aulas em grupo ou individuais no estúdio",
-    price: "A partir de R$ 80,00",
+    price: "A partir de R$ 12€",
     features: [
       "Turmas pequenas",
       "Acompanhamento personalizado",
@@ -18,7 +18,7 @@ const classes = [
   {
     title: "Aulas Online",
     description: "Pratique yoga no conforto da sua casa",
-    price: "A partir de R$ 60,00",
+    price: "A partir de R$ 20€",
     features: [
       "Flexibilidade de horário",
       "Acesso às gravações",
@@ -28,7 +28,7 @@ const classes = [
   {
     title: "Yoga para Gestantes",
     description: "Aulas especiais para gestantes",
-    price: "A partir de R$ 100,00",
+    price: "A partir de R$ 30€",
     features: [
       "Exercícios adaptados",
       "Preparação para o parto",

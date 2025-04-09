@@ -24,7 +24,7 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Ana Silva
+            Professora Camila
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Encontre equilíbrio e paz interior através do yoga

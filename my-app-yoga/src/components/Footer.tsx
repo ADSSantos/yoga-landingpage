@@ -44,7 +44,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Yoga com Ana Silva</h3>
+            <h3 className="text-xl font-bold mb-4">Yoga com Camila</h3>
             <p className="text-green-200">
               Encontre equilíbrio e paz interior através do yoga. Aulas presenciais e online para todos os níveis.
             </p>
@@ -86,7 +86,7 @@ export function Footer() {
           </div>
 
           <p className="text-green-200 text-sm">
-            © {new Date().getFullYear()} Yoga com Ana Silva. Todos os direitos reservados.
+            © {new Date().getFullYear()} Yoga com Camila. Todos os direitos reservados.
           </p>
         </div>
       </div>

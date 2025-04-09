@@ -9,19 +9,19 @@ const testimonials = [
   {
     name: "Maria Santos",
     role: "Aluna há 2 anos",
-    image: "/testimonial-1.jpg",
+    image: "https://img.freepik.com/fotos-gratis/foto-vertical-de-uma-feliz-mulher-de-pele-escura-com-cabelo-encaracolado_273609-15519.jpg?t=st=1744223810~exp=1744227410~hmac=4bacaf23c67a0b307981f96c1887e76c3080f029f6a737b1a33c883f90218d68&w=740",
     text: "As aulas da professora Ana transformaram minha vida. Hoje me sinto mais flexível, forte e em paz comigo mesma."
   },
   {
     name: "João Silva",
     role: "Aluno há 1 ano",
-    image: "/testimonial-2.jpg",
+    image: "https://img.freepik.com/fotos-gratis/homem-barbudo-ruivo-expressivo_176420-32277.jpg?t=st=1744223912~exp=1744227512~hmac=67f4786d30cc53e8ac51916cb6bf174228a5c4734474b59a99b2838fd303522a&w=996",
     text: "Excelente professora! As aulas são bem estruturadas e ela tem uma atenção especial com cada aluno."
   },
   {
     name: "Carla Oliveira",
     role: "Aluna há 6 meses",
-    image: "/testimonial-3.jpg",
+    image: "https://img.freepik.com/fotos-gratis/casal-senior-sorridente-de-vista-frontal_23-2149894077.jpg?t=st=1744223946~exp=1744227546~hmac=ec7d1c49491f8c1e3493d2bfab98546537d30bf053bc088de35c03086dcd42aa&w=740",
     text: "Comecei a praticar yoga para aliviar o estresse e encontrei muito mais do que isso. Recomendo muito!"
   }
 ]
@@ -84,7 +84,7 @@ export function TestimonialsSection() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "{testimonials[currentIndex].text}"
+                &quot;{testimonials[currentIndex].text}&quot;
               </p>
             </motion.div>
           </AnimatePresence>

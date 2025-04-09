@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from "next/image"
+
 
 export function AboutSection() {
   return (
@@ -15,12 +15,11 @@ export function AboutSection() {
           className="grid md:grid-cols-2 gap-12 items-center"
         >
           <div className="relative h-[400px] rounded-lg overflow-hidden">
-            <Image
-              src="/about-yoga.jpg"
-              alt="Professora de Yoga"
-              fill
-              className="object-cover"
-            />
+          <img
+          src="https://img.freepik.com/fotos-premium/encontrando-paz-dentro-de-mim-foto-recortada-de-uma-mulher-irreconhecivel-meditando-sozinha-em-um-estudio-de-ioga_590464-61207.jpg?w=996"
+          alt="Professora de Yoga"
+          className="w-full h-full object-cover"
+        />
           </div>
           
           <div>
